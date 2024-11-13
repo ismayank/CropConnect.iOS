@@ -26,7 +26,7 @@ Welcome to **CropConnect**! 🌱 Our platform bridges the gap between users and 
 2. Open the project in Xcode.
 3. Run the app on the iOS Simulator or a physical device.
 
-#🤝 Contributing
+## 🤝 Contributing
 **Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated!** 💪
 
 Fork the Project
@@ -35,11 +35,11 @@ Commit your Changes (git commit -m 'Add some AmazingFeature')
 Push to the Branch (git push origin feature/AmazingFeature)
 Open a Pull Request
 
-#📜 License
+## 📜 License
 
 Distributed under the MIT License. See LICENSE for more information.
 
-#💬 Contact
+## 💬 Contact
 
 Your Name - @ismayank - secalertai@gmail.com
 
