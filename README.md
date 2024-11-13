@@ -18,25 +18,13 @@ Welcome to **CropConnect**! 🌱 Our platform bridges the gap between users and 
   
 ## 📸 Screenshots
 
-### Home Screen 🏡, Category 📂, and Home Screen 🏡
+###  Splash Screen 🌊,Home Screen 🏡 and Home Screen 🏡
 <p float="left">
+<img src="https://github.com/ismayank/CropConnect.iOS/blob/main/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202024-11-13%20at%2019.48.20.png" width="200"/>
+
   <img src="https://github.com/ismayank/CropConnect.iOS/blob/main/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202024-11-13%20at%2019.46.28.png" width="200"/>
-  <img src="https://github.com/ismayank/CropConnect.iOS/blob/main/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202024-11-13%20at%2019.46.53.png" width="200"/>
+  
   <img src="https://github.com/ismayank/CropConnect.iOS/blob/main/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202024-11-13%20at%2019.46.48.png" width="200"/>
-</p>
-
-### My Cart 🛒, Promo Code 🎫, and Dashboard 📊
-<p float="left">
-  <img src="https://github.com/ismayank/CropConnect.iOS/blob/main/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202024-11-13%20at%2019.47.09.png" width="200"/>
-  <img src="https://github.com/ismayank/CropConnect.iOS/blob/main/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202024-11-13%20at%2019.47.21.png" width="200"/>
-  <img src="https://github.com/ismayank/CropConnect.iOS/blob/main/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202024-11-13%20at%2019.47.44.png" width="200"/>
-</p>
-
-### Favourites 💖, My Orders 📝, and Splash Screen 🌊
-<p float="left">
-  <img src="https://github.com/ismayank/CropConnect.iOS/blob/main/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202024-11-13%20at%2019.47.40.png" width="200"/>
-  <img src="https://github.com/ismayank/CropConnect.iOS/blob/main/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202024-11-13%20at%2019.48.02.png" width="200"/>
-  <img src="https://github.com/ismayank/CropConnect.iOS/blob/main/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202024-11-13%20at%2019.48.20.png" width="200"/>
 </p>
 
 ### Signing Options ✍️, Login 🔑, and Signup 📝
@@ -45,6 +33,29 @@ Welcome to **CropConnect**! 🌱 Our platform bridges the gap between users and 
   <img src="https://github.com/ismayank/CropConnect.iOS/blob/main/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202024-11-13%20at%2019.48.27.png" width="200"/>
   <img src="https://github.com/ismayank/CropConnect.iOS/blob/main/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202024-11-13%20at%2019.48.33.png" width="200"/>
 </p>
+
+
+### Category 📂,My Cart 🛒 and  Promo Code 🎫
+<p float="left">
+  <img src="https://github.com/ismayank/CropConnect.iOS/blob/main/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202024-11-13%20at%2019.46.53.png" width="200"/>
+  
+  <img src="https://github.com/ismayank/CropConnect.iOS/blob/main/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202024-11-13%20at%2019.47.09.png" width="200"/>
+  
+  <img src="https://github.com/ismayank/CropConnect.iOS/blob/main/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202024-11-13%20at%2019.47.21.png" width="200"/>
+  
+
+</p>
+
+### Favourites 💖, My Orders 📝, and Dashboard 📊
+<p float="left">
+  <img src="https://github.com/ismayank/CropConnect.iOS/blob/main/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202024-11-13%20at%2019.47.40.png" width="200"/>
+  
+  <img src="https://github.com/ismayank/CropConnect.iOS/blob/main/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202024-11-13%20at%2019.48.02.png" width="200"/>
+  
+  <img src="https://github.com/ismayank/CropConnect.iOS/blob/main/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202024-11-13%20at%2019.47.44.png" width="200"/>
+  
+</p>
+
 
 
 
