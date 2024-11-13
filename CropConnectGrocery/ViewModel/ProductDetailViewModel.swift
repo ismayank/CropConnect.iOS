@@ -1,9 +1,4 @@
-//
-//  ProductDetailViewModel.swift
-//  CropConnectGrocery
-//
-//  Created by MAYANK SINGH on 03/11/24.
-//
+
 
 import SwiftUI
 

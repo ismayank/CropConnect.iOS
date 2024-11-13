@@ -1,9 +1,3 @@
-//
-//  ExploreCategoryCell.swift
-//  OnlineGroceriesSwiftUI
-//
-//  Created by CodeForAny on 06/08/23.
-//
 
 import SwiftUI
 import SDWebImageSwiftUI

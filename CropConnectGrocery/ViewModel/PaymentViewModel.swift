@@ -1,9 +1,3 @@
-//
-//  PaymentViewModel.swift
-//  OnlineGroceriesSwiftUI
-//
-//  Created by CodeForAny on 12/08/23.
-//
 
 import SwiftUI
 

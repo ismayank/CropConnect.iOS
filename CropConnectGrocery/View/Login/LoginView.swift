@@ -5,12 +5,6 @@
 //  Created by MAYANK SINGH on 02/11/24.
 //
 
-//
-//  LoginView.swift
-//  OnlineGroceriesSwiftUI
-//
-//  Created by CodeForAny on 01/08/23.
-//
 
 import SwiftUI
 

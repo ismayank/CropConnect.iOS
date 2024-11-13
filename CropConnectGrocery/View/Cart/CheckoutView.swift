@@ -1,9 +1,7 @@
 //
 //  CheckoutView.swift
 //  OnlineGroceriesSwiftUI
-//
-//  Created by CodeForAny on 13/08/23.
-//
+
 
 import SwiftUI
 
