@@ -16,6 +16,12 @@ Welcome to **CropConnect**! 🌱 Our platform bridges the gap between users and 
 - **Backend**: [Specify any backend service here, e.g., Firebase 🔥, Node.js 🌐]
 - **Database**: [Specify any database here, e.g., Firestore 🔥, MongoDB 🍃]
 
+## 📸 Screenshots
+
+### Home Screen 🏡
+![Home Screen](https://github.com/ismayank/CropConnect.iOS/blob/main/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202024-11-13%20at%2019.46.28.png)
+
+
 ---
 
 ## 🚀 Getting Started
@@ -41,6 +47,6 @@ Distributed under the MIT License. See LICENSE for more information.
 
 ## 💬 Contact
 
-Your Name - @ismayank - secalertai@gmail.com
+Mayank Singh - @ismayank - secalertai@gmail.com
 
 Project Link: https://github.com/ismayank/CropConnect.iOS
