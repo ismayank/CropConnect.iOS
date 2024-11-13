@@ -19,7 +19,8 @@ Welcome to **CropConnect**! 🌱 Our platform bridges the gap between users and 
 ## 📸 Screenshots
 
 ### Home Screen 🏡
-![Home Screen](https://github.com/ismayank/CropConnect.iOS/blob/main/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202024-11-13%20at%2019.46.28.png)
+<img src="https://github.com/ismayank/CropConnect.iOS/blob/main/Simulator%20Screenshot%20-%20iPhone%2016%20Plus%20-%202024-11-13%20at%2019.46.28.png" width="600"/>
+
 
 
 ---
