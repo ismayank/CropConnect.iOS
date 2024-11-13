@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD4732382CDF61BF00549563 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = BD4732372CDF61BF00549563 /* GoogleSignIn */; };
+		BD47323A2CDF61BF00549563 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BD4732392CDF61BF00549563 /* GoogleSignInSwift */; };
+		BD47323F2CDF674C00549563 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BD47323E2CDF674C00549563 /* FirebaseAnalytics */; };
+		BD4732412CDF674C00549563 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = BD4732402CDF674C00549563 /* FirebaseAnalyticsOnDeviceConversion */; };
+		BD4732432CDF674C00549563 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = BD4732422CDF674C00549563 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		BD4732452CDF674C00549563 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = BD4732442CDF674C00549563 /* FirebaseAppCheck */; };
+		BD4732472CDF674C00549563 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = BD4732462CDF674C00549563 /* FirebaseAppDistribution-Beta */; };
+		BDE5BA872CD7545800B3C7CC /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = BDE5BA862CD7545800B3C7CC /* SDWebImageSwiftUI */; };
+		BDF7B0F72CD641F100989070 /* CountryPicker in Frameworks */ = {isa = PBXBuildFile; productRef = BDF7B0F62CD641F100989070 /* CountryPicker */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD8DFE002CD506D700248D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD8DFDE72CD506D500248D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD8DFDEE2CD506D500248D8F;
+			remoteInfo = CropConnectGrocery;
+		};
+		BD8DFE0A2CD506D700248D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD8DFDE72CD506D500248D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD8DFDEE2CD506D500248D8F;
+			remoteInfo = CropConnectGrocery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD8DFDEF2CD506D500248D8F /* CropConnectGrocery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CropConnectGrocery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD8DFDFF2CD506D700248D8F /* CropConnectGroceryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CropConnectGroceryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD8DFE092CD506D700248D8F /* CropConnectGroceryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CropConnectGroceryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BD5B94712CD50AF3001C21BA /* Exceptions for "CropConnectGrocery" folder in "CropConnectGrocery" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BD8DFDEE2CD506D500248D8F /* CropConnectGrocery */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BD8DFDF12CD506D500248D8F /* CropConnectGrocery */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BD5B94712CD50AF3001C21BA /* Exceptions for "CropConnectGrocery" folder in "CropConnectGrocery" target */,
+			);
+			path = CropConnectGrocery;
+			sourceTree = "<group>";
+		};
+		BD8DFE022CD506D700248D8F /* CropConnectGroceryTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CropConnectGroceryTests;
+			sourceTree = "<group>";
+		};
+		BD8DFE0C2CD506D700248D8F /* CropConnectGroceryUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CropConnectGroceryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD8DFDEC2CD506D500248D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4732452CDF674C00549563 /* FirebaseAppCheck in Frameworks */,
+				BDE5BA872CD7545800B3C7CC /* SDWebImageSwiftUI in Frameworks */,
+				BD4732412CDF674C00549563 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				BDF7B0F72CD641F100989070 /* CountryPicker in Frameworks */,
+				BD4732382CDF61BF00549563 /* GoogleSignIn in Frameworks */,
+				BD4732432CDF674C00549563 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				BD47323F2CDF674C00549563 /* FirebaseAnalytics in Frameworks */,
+				BD47323A2CDF61BF00549563 /* GoogleSignInSwift in Frameworks */,
+				BD4732472CDF674C00549563 /* FirebaseAppDistribution-Beta in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8DFDFC2CD506D700248D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8DFE062CD506D700248D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD8DFDE62CD506D500248D8F = {
+			isa = PBXGroup;
+			children = (
+				BD8DFDF12CD506D500248D8F /* CropConnectGrocery */,
+				BD8DFE022CD506D700248D8F /* CropConnectGroceryTests */,
+				BD8DFE0C2CD506D700248D8F /* CropConnectGroceryUITests */,
+				BD8DFDF02CD506D500248D8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD8DFDF02CD506D500248D8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD8DFDEF2CD506D500248D8F /* CropConnectGrocery.app */,
+				BD8DFDFF2CD506D700248D8F /* CropConnectGroceryTests.xctest */,
+				BD8DFE092CD506D700248D8F /* CropConnectGroceryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD8DFDEE2CD506D500248D8F /* CropConnectGrocery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD8DFE132CD506D700248D8F /* Build configuration list for PBXNativeTarget "CropConnectGrocery" */;
+			buildPhases = (
+				BD8DFDEB2CD506D500248D8F /* Sources */,
+				BD8DFDEC2CD506D500248D8F /* Frameworks */,
+				BD8DFDED2CD506D500248D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BD8DFDF12CD506D500248D8F /* CropConnectGrocery */,
+			);
+			name = CropConnectGrocery;
+			packageProductDependencies = (
+				BDF7B0F62CD641F100989070 /* CountryPicker */,
+				BDE5BA862CD7545800B3C7CC /* SDWebImageSwiftUI */,
+				BD4732372CDF61BF00549563 /* GoogleSignIn */,
+				BD4732392CDF61BF00549563 /* GoogleSignInSwift */,
+				BD47323E2CDF674C00549563 /* FirebaseAnalytics */,
+				BD4732402CDF674C00549563 /* FirebaseAnalyticsOnDeviceConversion */,
+				BD4732422CDF674C00549563 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				BD4732442CDF674C00549563 /* FirebaseAppCheck */,
+				BD4732462CDF674C00549563 /* FirebaseAppDistribution-Beta */,
+			);
+			productName = CropConnectGrocery;
+			productReference = BD8DFDEF2CD506D500248D8F /* CropConnectGrocery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD8DFDFE2CD506D700248D8F /* CropConnectGroceryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD8DFE162CD506D700248D8F /* Build configuration list for PBXNativeTarget "CropConnectGroceryTests" */;
+			buildPhases = (
+				BD8DFDFB2CD506D700248D8F /* Sources */,
+				BD8DFDFC2CD506D700248D8F /* Frameworks */,
+				BD8DFDFD2CD506D700248D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD8DFE012CD506D700248D8F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BD8DFE022CD506D700248D8F /* CropConnectGroceryTests */,
+			);
+			name = CropConnectGroceryTests;
+			packageProductDependencies = (
+			);
+			productName = CropConnectGroceryTests;
+			productReference = BD8DFDFF2CD506D700248D8F /* CropConnectGroceryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD8DFE082CD506D700248D8F /* CropConnectGroceryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD8DFE192CD506D700248D8F /* Build configuration list for PBXNativeTarget "CropConnectGroceryUITests" */;
+			buildPhases = (
+				BD8DFE052CD506D700248D8F /* Sources */,
+				BD8DFE062CD506D700248D8F /* Frameworks */,
+				BD8DFE072CD506D700248D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD8DFE0B2CD506D700248D8F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BD8DFE0C2CD506D700248D8F /* CropConnectGroceryUITests */,
+			);
+			name = CropConnectGroceryUITests;
+			packageProductDependencies = (
+			);
+			productName = CropConnectGroceryUITests;
+			productReference = BD8DFE092CD506D700248D8F /* CropConnectGroceryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD8DFDE72CD506D500248D8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					BD8DFDEE2CD506D500248D8F = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					BD8DFDFE2CD506D700248D8F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = BD8DFDEE2CD506D500248D8F;
+					};
+					BD8DFE082CD506D700248D8F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = BD8DFDEE2CD506D500248D8F;
+					};
+				};
+			};
+			buildConfigurationList = BD8DFDEA2CD506D500248D8F /* Build configuration list for PBXProject "CropConnectGrocery" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD8DFDE62CD506D500248D8F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BDF7B0F52CD641F100989070 /* XCRemoteSwiftPackageReference "CountryPicker" */,
+				BDE5BA852CD7545800B3C7CC /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				BD4732362CDF61BE00549563 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				BD47323D2CDF674C00549563 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BD8DFDF02CD506D500248D8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD8DFDEE2CD506D500248D8F /* CropConnectGrocery */,
+				BD8DFDFE2CD506D700248D8F /* CropConnectGroceryTests */,
+				BD8DFE082CD506D700248D8F /* CropConnectGroceryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD8DFDED2CD506D500248D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8DFDFD2CD506D700248D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8DFE072CD506D700248D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD8DFDEB2CD506D500248D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8DFDFB2CD506D700248D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8DFE052CD506D700248D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD8DFE012CD506D700248D8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD8DFDEE2CD506D500248D8F /* CropConnectGrocery */;
+			targetProxy = BD8DFE002CD506D700248D8F /* PBXContainerItemProxy */;
+		};
+		BD8DFE0B2CD506D700248D8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD8DFDEE2CD506D500248D8F /* CropConnectGrocery */;
+			targetProxy = BD8DFE0A2CD506D700248D8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BD8DFE112CD506D700248D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD8DFE122CD506D700248D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD8DFE142CD506D700248D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CropConnectGrocery/Preview Content\"";
+				DEVELOPMENT_TEAM = NSRVNFRKQ9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CropConnectGrocery/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mayank.CropConnectGrocery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BD8DFE152CD506D700248D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CropConnectGrocery/Preview Content\"";
+				DEVELOPMENT_TEAM = NSRVNFRKQ9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CropConnectGrocery/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mayank.CropConnectGrocery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BD8DFE172CD506D700248D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mayank.CropConnectGroceryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CropConnectGrocery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CropConnectGrocery";
+			};
+			name = Debug;
+		};
+		BD8DFE182CD506D700248D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mayank.CropConnectGroceryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CropConnectGrocery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CropConnectGrocery";
+			};
+			name = Release;
+		};
+		BD8DFE1A2CD506D700248D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mayank.CropConnectGroceryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CropConnectGrocery;
+			};
+			name = Debug;
+		};
+		BD8DFE1B2CD506D700248D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mayank.CropConnectGroceryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CropConnectGrocery;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD8DFDEA2CD506D500248D8F /* Build configuration list for PBXProject "CropConnectGrocery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD8DFE112CD506D700248D8F /* Debug */,
+				BD8DFE122CD506D700248D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD8DFE132CD506D700248D8F /* Build configuration list for PBXNativeTarget "CropConnectGrocery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD8DFE142CD506D700248D8F /* Debug */,
+				BD8DFE152CD506D700248D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD8DFE162CD506D700248D8F /* Build configuration list for PBXNativeTarget "CropConnectGroceryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD8DFE172CD506D700248D8F /* Debug */,
+				BD8DFE182CD506D700248D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD8DFE192CD506D700248D8F /* Build configuration list for PBXNativeTarget "CropConnectGroceryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD8DFE1A2CD506D700248D8F /* Debug */,
+				BD8DFE1B2CD506D700248D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BD4732362CDF61BE00549563 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		BD47323D2CDF674C00549563 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.4.0;
+			};
+		};
+		BDE5BA852CD7545800B3C7CC /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.2;
+			};
+		};
+		BDF7B0F52CD641F100989070 /* XCRemoteSwiftPackageReference "CountryPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mobven/CountryPicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BD4732372CDF61BF00549563 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD4732362CDF61BE00549563 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		BD4732392CDF61BF00549563 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD4732362CDF61BE00549563 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		BD47323E2CDF674C00549563 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD47323D2CDF674C00549563 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		BD4732402CDF674C00549563 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD47323D2CDF674C00549563 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		BD4732422CDF674C00549563 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD47323D2CDF674C00549563 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		BD4732442CDF674C00549563 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD47323D2CDF674C00549563 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		BD4732462CDF674C00549563 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD47323D2CDF674C00549563 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		BDE5BA862CD7545800B3C7CC /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDE5BA852CD7545800B3C7CC /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		BDF7B0F62CD641F100989070 /* CountryPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDF7B0F52CD641F100989070 /* XCRemoteSwiftPackageReference "CountryPicker" */;
+			productName = CountryPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BD8DFDE72CD506D500248D8F /* Project object */;
+}
